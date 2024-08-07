@@ -1,0 +1,67 @@
+body {
+    font-family: 'Garamond', Garamond;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.title-container {
+    background-color: #51829B;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-container input[type="text"] {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #51829B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tasks-container {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 361px;
+}
+
+.tasks-container ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.tasks-container li {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.tasks-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #51829B;
+}
+
+.tasks-container a:hover {
+    font-size: 20px;
+    color: #51829B;
+}
